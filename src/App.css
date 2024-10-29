@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+}
+
+.navCust{
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+#hero{
+  background-image: url("./images/Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#heroq{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fs-20{
+  font-size: 36px;
+  font-weight: 500;
+}
+.Sports{
+  background-color: red !important;
+}
+.bg-red{
+  background-color: red !important;
+}
+.bg-blue{
+  background-color: blue;
+}
+.sports{
+  background-color: red !important;
+}
+.Adventure{
+  background-color: aqua !important;
+}
+.bg-orange{
+  background-color: orange;
+}
+.line{
+  width: 70px;
+  height: 3px;
+  margin-top: 0.78rem;
+  border-radius: 4px;
+}
+
+.h1{
+  font-family: Lora;
+font-size: 36px;
+font-weight: 700;
+line-height: 46.08px;
+text-align: left;
+
+}
+.category-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  color: white;
+  padding: 5px 10px; 
+  border-radius: 5px; 
+}
